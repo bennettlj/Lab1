@@ -36,7 +36,6 @@ public class Lab1code {
        PV = FinanceLib.pv(r, n, y, f, t);
        System.out.printf("What the user need saved = %.2f", PV);
        
-       //Compute the user will need to save for each month.
        double PMT;
        r = (annualReturn2/12);
        n = workYear*12;
@@ -45,7 +44,7 @@ public class Lab1code {
        t = false;
     		
        PMT = FinanceLib.pmt(r,n,p,f,t);
-       System.out.printf("The user need to save for each month = %.2f", PMT); 
+       System.out.printf("What you need to save each month = %.2f", PMT); 
     		   
 	}
 
